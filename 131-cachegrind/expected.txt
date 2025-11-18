@@ -1,0 +1,4 @@
+Cachegrind cache analysis:
+
+Column sums (first 5): 130816 131328 131840 132352 132864
+Processing complete

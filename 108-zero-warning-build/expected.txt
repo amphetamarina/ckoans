@@ -1,0 +1,7 @@
+Testing zero-warning fixes:
+Old style: 8
+Shadow: 40
+Truncated: 3, Unsigned: 4294967295
+Safe string
+Used: 42
+String: Hello

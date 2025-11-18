@@ -1,0 +1,43 @@
+Deterministic Archives
+======================
+
+Archive (.a) file structure:
+  Magic: !<arch>\n
+  For each member:
+    - Filename (16 bytes)
+    - Timestamp (12 bytes)
+    - Owner UID (6 bytes)
+    - Group GID (6 bytes)
+    - Mode (8 bytes)
+    - Size (10 bytes)
+    - Magic: `\n
+    - File data
+
+Sources of non-determinism:
+  1. File timestamps
+  2. Owner UID/GID
+  3. Member ordering
+  4. File permissions
+
+Deterministic mode:
+  ar rcsD lib.a file.o
+
+  Flags:
+    r - Insert/replace files
+    c - Create archive
+    s - Create symbol index
+    D - Deterministic mode (zero timestamps, uid, gid)
+
+  Effects:
+    - Timestamps set to epoch (0)
+    - UID/GID set to 0
+    - Mode normalized
+
+Verifying determinism:
+  $ gcc -c file.c -o file.o
+  $ ar rcsD lib1.a file.o
+  $ ar rcsD lib2.a file.o
+  $ sha256sum lib1.a lib2.a
+  Both archives should have identical hashes
+
+Deterministic archives enable reproducible builds

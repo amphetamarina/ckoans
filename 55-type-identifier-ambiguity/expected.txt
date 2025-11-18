@@ -1,0 +1,3 @@
+x = 42
+result = 15
+size = 4

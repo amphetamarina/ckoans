@@ -1,0 +1,5 @@
+Starting threads with data race...
+ThreadSanitizer should detect conflicting accesses
+
+Final counter value: 0 (expected: 0)
+SUCCESS: Counter is correct!

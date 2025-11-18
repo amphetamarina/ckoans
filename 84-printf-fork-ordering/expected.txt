@@ -1,0 +1,5 @@
+Start - before fork
+Child process: PID=[0-9]+
+Process [0-9]+ exiting
+Parent process: PID=[0-9]+, child=[0-9]+
+Process [0-9]+ exiting

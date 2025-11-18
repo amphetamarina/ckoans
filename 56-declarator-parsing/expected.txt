@@ -1,0 +1,3 @@
+First element via array_ptr: 1
+Function result: 10
+Correct function result: 14

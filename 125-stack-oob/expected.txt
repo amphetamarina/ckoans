@@ -1,0 +1,10 @@
+Stack out-of-bounds detection:
+
+Before: marker1=aaaa, marker2=bbbb
+After: marker1=aaaa, marker2=bbbb
+
+String: Hell
+
+Array: 0 10 20 30 40
+Before overflow: sentinel = 42
+After overflow: sentinel = 42

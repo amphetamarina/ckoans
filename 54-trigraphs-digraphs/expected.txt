@@ -1,0 +1,3 @@
+What??! This is weird.
+Array size: 10
+Sum: 55

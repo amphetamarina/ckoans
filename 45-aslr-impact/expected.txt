@@ -1,0 +1,11 @@
+=== ASLR Impact ===
+
+Run this program multiple times.
+With ASLR enabled, addresses will change each time.
+
+ASLR makes these addresses unpredictable.
+This prevents attackers from hardcoding addresses.
+
+Check ASLR status:
+  cat /proc/sys/kernel/randomize_va_space
+  (2 = full ASLR, 1 = partial, 0 = disabled)

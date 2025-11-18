@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: weblib
+Description: Web framework library
+# BUG: Version is 2.5, but Makefile requires >= 3.0
+Version: 2.5.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lweblib

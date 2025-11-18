@@ -1,0 +1,2 @@
+Type-punned value: 1.0
+First byte: 0x34

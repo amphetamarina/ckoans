@@ -1,0 +1,5 @@
+Counter call 1: 1
+Counter call 2: 2
+Counter call 3: 3
+Inner x: 10
+Outer x: 42

@@ -1,0 +1,25 @@
+Direct Syscalls Without libc
+=============================
+
+Syscall interface (x86-64):
+  Syscall number -> RAX
+  Arg1 -> RDI
+  Arg2 -> RSI
+  Arg3 -> RDX
+  Arg4 -> R10
+  Arg5 -> R8
+  Arg6 -> R9
+  Return value <- RAX
+
+Common syscall numbers:
+  SYS_read  = 0
+  SYS_write = 1
+  SYS_exit  = 60
+  SYS_open  = 2
+  SYS_close = 3
+
+Direct syscall example:
+  Hello from direct syscall!
+
+Direct syscalls bypass libc wrappers
+Essential for minimal runtime environments

@@ -1,0 +1,9 @@
+Demonstrating memory barriers
+
+Reader: Waiting for data to be ready
+Writer: Setting data to 42
+Writer: Signaled ready
+Reader: Data is ready, value = 42
+Reader: SUCCESS - Got expected value!
+
+Memory barriers ensure proper ordering!

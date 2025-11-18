@@ -1,0 +1,6 @@
+Callgrind diff comparison:
+
+Using FAST version
+String length: 10000
+First 10 chars: ABCDEFGHIJ
+Sorted array (first 5): 1 2 3 4 5

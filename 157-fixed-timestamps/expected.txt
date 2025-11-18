@@ -1,0 +1,20 @@
+Reproducible Builds: Fixed Timestamps
+======================================
+
+Non-reproducible approach:
+  Build date: [A-Z][a-z]{2} [ 0-9][0-9] [0-9]{4}
+  Build time: [0-9]{2}:[0-9]{2}:[0-9]{2}
+
+Reproducible approach:
+  Use SOURCE_DATE_EPOCH environment variable
+  Strip timestamps from binaries
+  Avoid __DATE__ and __TIME__ macros
+
+SOURCE_DATE_EPOCH demonstration:
+  Build timestamp: [0-9]+
+  SOURCE_DATE_EPOCH: (not set|[0-9]+)
+
+Fixing timestamps:
+  1. Remove __DATE__/__TIME__ macros
+  2. Use SOURCE_DATE_EPOCH
+  3. Build twice and compare hashes

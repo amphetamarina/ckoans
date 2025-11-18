@@ -1,0 +1,28 @@
+_start vs main
+==============
+
+C Runtime Initialization (_start)
+==================================
+
+Step 1: Kernel loads program and jumps to _start
+Step 2: _start sets up the stack
+Step 3: Initialize .bss section (zero-fill)
+Step 4: Parse argc, argv, envp from stack
+Step 5: Call global constructors
+Step 6: Call main()
+
+Main Function Execution
+=======================
+Your main() function runs here
+Can use libc functions: printf, malloc, etc.
+
+Program Exit
+============
+Step 1: main() returns with code: 0
+Step 2: C runtime calls exit(0)
+Step 3: Run atexit handlers
+Step 4: Call global destructors
+Step 5: Flush stdio buffers
+Step 6: Invoke _exit syscall
+
+_start is the real entry point, not main!

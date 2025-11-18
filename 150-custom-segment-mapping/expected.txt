@@ -1,0 +1,17 @@
+Custom Segment Mapping
+=====================
+
+Special data segment:
+  special_value: 12345
+  special_message: Special segment
+
+Config data segment:
+  config_sum: 150
+
+Segments control runtime memory layout:
+  - Permissions (R/W/X)
+  - Alignment
+  - Loading address
+
+PHDRS directive creates custom segments
+Use readelf -l to inspect program headers

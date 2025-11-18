@@ -1,0 +1,3 @@
+Reading from stdin (will be interrupted by alarm)...
+Read succeeded: test
+Alarm fired: 1

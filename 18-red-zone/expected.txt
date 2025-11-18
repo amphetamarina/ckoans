@@ -1,0 +1,2 @@
+Leaf result: 8
+Non-leaf result: 40

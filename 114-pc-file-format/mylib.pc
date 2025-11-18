@@ -1,0 +1,19 @@
+# BUG: Missing prefix variable definition
+# prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+# BUG: Wrong variable reference - should use ${prefix}
+includedir=/usr/local/include
+
+Name: mylib
+# BUG: Missing Description field
+Version: 1.0.0
+
+# BUG: Missing -I flag before includedir
+Cflags: ${includedir}
+
+# BUG: Wrong order - should be -L before -l
+Libs: -lmylib -L${libdir}
+
+# BUG: Typo in field name - should be "Requires" not "Require"
+Require:

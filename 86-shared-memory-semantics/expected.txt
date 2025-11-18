@@ -1,0 +1,7 @@
+Initial shared_counter: 0
+
+Thread [12]: local_counter=5, shared_counter=(10|[6-9])
+Thread [12]: local_counter=5, shared_counter=(10|[6-9])
+
+Final shared_counter: 10 (expected: 10)
+Each thread's local_counter was private: should be 5

@@ -1,0 +1,6 @@
+Stack overflow detection:
+
+Fibonacci(5) = 5
+Sum to -5 = 0
+
+Mutual recursion: A3 B2 A2 B1 A1 B0 A0

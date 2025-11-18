@@ -1,0 +1,7 @@
+=== User to Kernel Transition Demo ===
+
+Writing message (check syscall count with strace):
+Hello, World!
+
+Each write() call causes a mode switch to kernel!
+Use 'strace -c ./broken' to see syscall statistics

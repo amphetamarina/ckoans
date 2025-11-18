@@ -1,0 +1,7 @@
+Testing sanitizer coverage:
+
+10 / 2 = 5
+Message: Hello
+Overflow result: 10
+
+All tests completed

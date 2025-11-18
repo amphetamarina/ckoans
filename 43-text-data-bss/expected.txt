@@ -1,0 +1,19 @@
+=== .text / .data / .bss ===
+
+.data (initialized):
+  global_init = 42
+  static_init = 100
+
+.bss (uninitialized, zero-initialized):
+  global_uninit = 0
+  static_uninit = 0
+
+.rodata (read-only):
+  message = Hello from .rodata
+
+.text (code):
+Local: 50
+Local static uninit: 1
+Local static init: 201
+
+Run 'size broken' to see section sizes

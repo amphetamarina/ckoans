@@ -1,0 +1,6 @@
+Symbol Versioning Test
+Symbol versioning allows ABI evolution
+Version 1.0 result: 10
+Version 2.0 result: 20
+Default version result: 20
+Both versions can coexist in same library

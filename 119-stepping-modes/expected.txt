@@ -1,0 +1,5 @@
+Stepping through nested calls:
+
+Square of 5 = 25
+Sum of squares 1..4 = 30
+2^3 = 8

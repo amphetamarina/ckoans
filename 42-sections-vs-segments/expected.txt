@@ -1,0 +1,20 @@
+=== Sections vs Segments ===
+
+Sections (linker view):
+  .text   - executable code
+  .data   - initialized data
+  .bss    - uninitialized data
+  .rodata - read-only data
+
+Segments (loader view):
+  LOAD segment 1: R+E (.text + .rodata)
+  LOAD segment 2: RW  (.data + .bss)
+
+Example data:
+  initialized: 42 (in .data)
+  uninitialized: 0 (in .bss)
+  read-only: 100 (in .rodata)
+
+Use these commands to explore:
+  readelf -S ./broken  # View sections
+  readelf -l ./broken  # View segments

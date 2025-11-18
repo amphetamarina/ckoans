@@ -1,0 +1,53 @@
+Byte-Identical Reproducible Builds
+===================================
+
+Sources of non-determinism:
+  1. Timestamps (__DATE__, __TIME__)
+  2. Random values (ASLR, UUIDs)
+  3. File ordering (readdir)
+  4. Environment (paths, usernames)
+  5. Parallelism (race conditions)
+  6. Non-deterministic optimizations
+
+Solutions:
+
+  1. Timestamps:
+     export SOURCE_DATE_EPOCH=1234567890
+     Avoid __DATE__ and __TIME__
+
+  2. Deterministic archives:
+     ar rcsD lib.a file.o
+
+  3. Stable ordering:
+     SRCS := $(sort $(wildcard *.c))
+
+  4. Compiler flags:
+     -ffile-prefix-map=OLD=NEW
+     -frandom-seed=0
+
+  5. Linker flags:
+     -Wl,--build-id=none
+     -Wl,--hash-style=sysv
+
+Verification process:
+  $ make clean && make
+  $ sha256sum program > hash1.txt
+  $ make clean && make
+  $ sha256sum program > hash2.txt
+  $ diff hash1.txt hash2.txt
+  Hashes should be identical!
+
+Benefits of reproducible builds:
+  - Verify build integrity
+  - Detect supply chain attacks
+  - Enable distributed build caching
+  - Prove binary matches source
+  - Security auditing
+
+Tools for reproducible builds:
+  - diffoscope: Deep binary comparison
+  - strip-nondeterminism: Remove timestamps
+  - reprotest: Test reproducibility
+  - SOURCE_DATE_EPOCH: Standard timestamp
+
+Reproducible builds enable trust and verification!

@@ -1,0 +1,4 @@
+level1 local: 0xDYNAMIC
+level2 local: 0xDYNAMIC
+level3 local: 0xDYNAMIC
+Stack grows DOWN (correct)

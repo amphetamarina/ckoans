@@ -1,0 +1,5 @@
+Count: 10
+Letter: a
+Message: Hello world
+Hex: 255
+Result: 8

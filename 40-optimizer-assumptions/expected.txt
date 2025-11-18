@@ -1,0 +1,3 @@
+Aliasing test: 10
+Addition test: 42
+Correct addition: 42

@@ -1,0 +1,16 @@
+=== System Call Numbers ===
+
+Syscall numbers on this architecture:
+SYS_getpid  = 39
+SYS_getppid = 110
+SYS_write   = 1
+
+Calling syscalls by number:
+My PID (via syscall 39): [0-9]+
+Parent PID (via syscall 110): [0-9]+
+
+Using wrapper functions:
+My PID (via getpid):  [0-9]+
+Parent PID (via getppid): [0-9]+
+
+Wrapper functions internally use syscall numbers!

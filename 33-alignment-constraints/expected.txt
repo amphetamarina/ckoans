@@ -1,0 +1,6 @@
+Alignment of char: 1
+Alignment of short: 2
+Alignment of int: 4
+Alignment of long: 8
+Alignment of double: 8
+Aligned write: 42

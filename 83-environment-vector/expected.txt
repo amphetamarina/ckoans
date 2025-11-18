@@ -1,0 +1,9 @@
+=== Environment Variables Demo ===
+
+CUSTOM_VAR=custom_value
+MY_VAR is set to: test_value
+
+First 3 environment variables:
+1: [A-Z_]+=.*
+2: [A-Z_]+=.*
+3: [A-Z_]+=.*

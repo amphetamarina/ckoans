@@ -1,0 +1,6 @@
+Signal handler installed. Sending SIGINT to self...
+Caught 3 SIGINT signals
+SIGINT now ignored. Sending SIGINT...
+Signal was ignored (we're still running)
+SIGINT restored to default
+Done

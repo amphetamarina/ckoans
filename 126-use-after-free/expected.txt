@@ -1,0 +1,4 @@
+Use-after-free detection:
+
+Message: Test
+List before free: 1 -> 2

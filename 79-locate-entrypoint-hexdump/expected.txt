@@ -1,0 +1,4 @@
+Entry point: 42
+The entry point is where execution begins
+It's stored at offset 0x18 in the ELF header
+Entry calls _start, which calls main

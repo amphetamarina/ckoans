@@ -1,0 +1,6 @@
+Integer overflow detection:
+
+INT_MAX + 1 = -2147483648
+100000 * 100000 = 1410065408
+Buffer size: 1410065408
+Negated INT_MIN: -2147483648

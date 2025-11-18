@@ -1,0 +1,5 @@
+Parent: About to fork and exec
+Parent: Waiting for child to complete
+Child: About to exec /bin/echo
+Hello from exec!
+Parent: Child completed

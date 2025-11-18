@@ -1,0 +1,10 @@
+Watchpoint debugging:
+
+Initial target value: 42
+After fill_array, target value: 42
+Initial counter: 100
+After increment, counter: 100
+
+Buffer contents: 10 10 10 10 10
+Final target: 42
+Final counter: 100

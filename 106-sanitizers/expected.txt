@@ -1,0 +1,5 @@
+Starting tests...
+Short string
+Value: 42
+Overflow result: -2147483648
+All tests passed!

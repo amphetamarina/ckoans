@@ -1,0 +1,4 @@
+Union method: 1.0
+Memcpy method: 1.0
+All equal: yes
+Bytes: 2a 00 00 00

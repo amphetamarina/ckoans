@@ -1,0 +1,2 @@
+Result: 49
+Static linking embeds library code in executable

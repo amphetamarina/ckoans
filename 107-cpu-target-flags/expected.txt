@@ -1,0 +1,10 @@
+CPU Feature Detection:
+SSE2: available
+AVX: available
+AVX2: available
+
+Architecture Info:
+Function address: 0x[0-9a-f]+
+Pointer size: 8 bytes (64-bit)
+
+CPUID max leaf: 0x[0-9a-f]+

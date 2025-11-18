@@ -1,0 +1,9 @@
+Creating threads...
+Main thread waiting for completion...
+Thread [123] starting
+Thread [123] starting
+Thread [123] starting
+Thread [123] finishing
+Thread [123] finishing
+Thread [123] finishing
+All threads completed

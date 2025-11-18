@@ -1,0 +1,36 @@
+Stable Ordering for Reproducible Builds
+========================================
+
+Sources of unstable ordering:
+  1. Filesystem readdir() order
+  2. Hash table iteration
+  3. Parallel builds
+  4. Wildcard expansion
+  5. ASLR (address space layout)
+
+Unstable file processing:
+  Files in filesystem order:
+    - zebra.c
+    - apple.c
+    - mango.c
+    - banana.c
+
+Stable file processing:
+  Files in sorted order:
+    - apple.c
+    - banana.c
+    - mango.c
+    - zebra.c
+
+Build system solutions:
+  Makefile:
+    SRCS := $(sort $(wildcard *.c))
+
+  CMake:
+    file(GLOB SRCS "*.c")
+    list(SORT SRCS)
+
+  Shell:
+    gcc $(ls *.c | sort) -o program
+
+Always sort inputs for reproducible builds!

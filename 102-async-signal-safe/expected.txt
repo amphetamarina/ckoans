@@ -1,0 +1,4 @@
+Main: sending signal
+Signal received!
+Main: signal handled = 1
+Main: done

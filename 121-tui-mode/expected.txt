@@ -1,0 +1,6 @@
+TUI mode debugging:
+
+Fibonacci sequence (5 terms): 0, 1, 1, 2, 3
+Original: 1 2 3 4 5
+Reversed: 5 4 3 2 1
+Max value: 9

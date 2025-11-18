@@ -1,0 +1,17 @@
+=== /proc/self/maps ===
+
+This process's memory layout:
+
+Legend:
+  r = readable
+  w = writable
+  x = executable
+  p = private (copy-on-write)
+  s = shared
+
+Look for:
+  r-xp regions = code (.text)
+  rw-p regions = data (.data, .bss)
+  [heap] = heap memory
+  [stack] = stack memory
+  lib*.so = shared libraries

@@ -1,0 +1,5 @@
+Memory leak demonstration:
+Message: Hello
+Processed 100 items
+First element: 42
+Done

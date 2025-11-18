@@ -1,0 +1,2 @@
+Answer: 42
+Symbol versioning ensures compatibility

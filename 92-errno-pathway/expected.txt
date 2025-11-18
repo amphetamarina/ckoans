@@ -1,0 +1,15 @@
+=== Errno Pathway Demo ===
+
+Attempting to open non-existent file...
+open() failed with return value: -1
+Error code (errno): 2
+Error message: No such file or directory
+  perror output: No such file or directory
+
+Attempting open with invalid flags...
+errno after call: 22 (Invalid argument)
+
+Correct errno usage:
+  Correctly detected: File does not exist
+
+Key lesson: Always check return value before checking errno!

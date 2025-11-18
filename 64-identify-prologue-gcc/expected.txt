@@ -1,0 +1,3 @@
+Array sum: 15
+Calculate: 120
+Simple add: 12

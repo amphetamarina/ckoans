@@ -1,0 +1,6 @@
+Log contents:
+Entry 1: Application started
+Entry 2: Configuration loaded
+Entry 3: Database connected
+Entry 4: Server listening on port 8080
+Entry 5: Ready to accept requests

@@ -1,0 +1,6 @@
+Allocating 64 bytes...
+User pointer: 0xDYNAMIC
+Header should be 16 bytes before
+
+Freeing...
+Freeing block: size=64, magic=0xDEADBEEF, allocated=1

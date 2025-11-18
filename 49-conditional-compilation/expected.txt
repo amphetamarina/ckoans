@@ -1,0 +1,4 @@
+Program starting...
+Release mode active
+Version 2.0 or higher
+Feature X disabled

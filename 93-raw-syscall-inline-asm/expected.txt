@@ -1,0 +1,6 @@
+=== Raw Syscall via Inline Assembly ===
+
+Hello from raw write syscall!
+PID from raw getpid syscall: [0-9]+
+
+Inline assembly allows direct kernel access!

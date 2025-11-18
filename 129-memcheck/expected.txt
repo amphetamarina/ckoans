@@ -1,0 +1,5 @@
+Valgrind Memcheck demonstration:
+
+Non-positive
+Sum: 10
+Done

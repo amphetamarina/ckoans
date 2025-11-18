@@ -1,0 +1,5 @@
+Sending 3 signals...
+Caught signal #1
+Caught signal #2
+Caught signal #3
+Total signals caught: 3

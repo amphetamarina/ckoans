@@ -1,0 +1,4 @@
+Circle area (r=3): 28.27
+Factorial approx (5): 10
+Sum of squares (2,3) / 2: 6
+Rectangle area (4x6): 24

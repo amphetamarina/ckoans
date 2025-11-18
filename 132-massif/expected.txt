@@ -1,0 +1,5 @@
+Massif heap profiling:
+
+Created list with 10000 nodes
+Processed 50000 elements
+First 5 results: 0 3 6 9 12

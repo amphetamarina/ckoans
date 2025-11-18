@@ -1,0 +1,4 @@
+Symbol Visibility Test
+State: 30
+Protected: 42
+Hidden symbols reduce symbol pollution

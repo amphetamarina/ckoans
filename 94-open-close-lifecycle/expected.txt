@@ -1,0 +1,2 @@
+First line: Log entry 1
+Completed successfully

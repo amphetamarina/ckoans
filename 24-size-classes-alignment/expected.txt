@@ -1,0 +1,12 @@
+Size class allocation simulation:
+Size classes: 16 32 64 128 256 512 1024
+
+Request    1 bytes → allocated   16 bytes (waste:  15 bytes, 93.8%)
+Request   16 bytes → allocated   16 bytes (waste:   0 bytes, 0.0%)
+Request   17 bytes → allocated   32 bytes (waste:  15 bytes, 46.9%)
+Request   31 bytes → allocated   32 bytes (waste:   1 bytes, 3.1%)
+Request   32 bytes → allocated   32 bytes (waste:   0 bytes, 0.0%)
+Request   33 bytes → allocated   64 bytes (waste:  31 bytes, 48.4%)
+Request  100 bytes → allocated  128 bytes (waste:  28 bytes, 21.9%)
+Request  256 bytes → allocated  256 bytes (waste:   0 bytes, 0.0%)
+Request  500 bytes → allocated  512 bytes (waste:  12 bytes, 2.3%)

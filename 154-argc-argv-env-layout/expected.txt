@@ -1,0 +1,26 @@
+argc/argv/envp Stack Layout
+============================
+
+Stack layout at _start:
+  [argc]           = 3
+
+  [argv pointers]
+    argv[0] @ 0x[0-9a-f]+ -> ".+/broken"
+    argv[1] @ 0x[0-9a-f]+ -> "arg1"
+    argv[2] @ 0x[0-9a-f]+ -> "arg2"
+    argv[3] @ 0x[0-9a-f]+ -> NULL
+
+  [envp pointers]
+    envp[0] @ 0x[0-9a-f]+ -> ".+=.+"
+    envp[1] @ 0x[0-9a-f]+ -> ".+=.+"
+    envp[2] @ 0x[0-9a-f]+ -> ".+=.+"
+    ...
+
+Parsing stack like _start does:
+  1. Read argc from stack top
+  2. argv = stack + 1 (skip argc)
+  3. envp = argv + argc + 1 (skip argv and NULL)
+  4. Parse until NULL terminator
+
+The kernel places this layout on the stack
+_start parses it before calling main()

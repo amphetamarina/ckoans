@@ -1,0 +1,17 @@
+Custom Memory Region Demonstration
+==================================
+
+Memory layout:
+  normal_data (.data):   42 at 0x[0-9a-f]+
+  fast_data (.fastram):  100 at 0x[0-9a-f]+
+  backup_data (.backup): 999 at 0x[0-9a-f]+
+
+Verifying section placement:
+  [OK] fast_data in .fastram
+  [OK] backup_data in .backup
+  [OK] normal_data in .data
+
+All sections placed correctly!
+
+Linker scripts map sections to memory regions
+Use readelf -S to verify addresses

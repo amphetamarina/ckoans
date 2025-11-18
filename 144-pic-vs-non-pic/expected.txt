@@ -1,0 +1,5 @@
+PIC vs non-PIC demonstration
+Counter value: 5
+Counter address: 0x[0-9a-f]+
+Function address: 0x[0-9a-f]+
+PIC enables ASLR and code sharing

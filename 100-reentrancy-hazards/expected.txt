@@ -1,0 +1,2 @@
+Starting signal test
+Signals processed: 3

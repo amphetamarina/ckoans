@@ -1,0 +1,7 @@
+Demonstrating frame unwinding:
+main frame pointer: 0xDYNAMIC
+level1 frame pointer: 0xDYNAMIC
+level2 frame pointer: 0xDYNAMIC
+level3 frame pointer: 0xDYNAMIC
+
+Call depth from main: 3

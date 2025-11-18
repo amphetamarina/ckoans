@@ -1,0 +1,5 @@
+Starting 4 threads, each incrementing 250000 times
+Expected final value: 1000000
+
+Actual final value: 1000000
+SUCCESS: Counter is correct!

@@ -1,0 +1,4 @@
+=== Stack Frame Inspection Demo ===
+Calling buggy_calc(3, 4, 5)
+Debug: x=3 y=4 z=5 temp1=7 temp2=9 result=63
+Answer: 63

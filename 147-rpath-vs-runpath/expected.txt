@@ -1,0 +1,23 @@
+RPATH vs RUNPATH
+================
+
+RPATH:
+  - Embedded at link time
+  - Searched BEFORE LD_LIBRARY_PATH
+  - Cannot be overridden
+  - Use: -Wl,-rpath,/path
+
+RUNPATH:
+  - Newer mechanism
+  - Searched AFTER LD_LIBRARY_PATH
+  - Can be overridden
+  - Use: -Wl,--enable-new-dtags,-rpath,/path
+
+Dynamic linker search order:
+1. RPATH
+2. LD_LIBRARY_PATH
+3. RUNPATH
+4. /etc/ld.so.cache
+5. Default paths (/lib, /usr/lib)
+
+Key difference: RPATH cannot be overridden by LD_LIBRARY_PATH

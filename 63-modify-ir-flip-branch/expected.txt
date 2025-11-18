@@ -1,0 +1,5 @@
+5 is small
+10 is large
+15 is large
+20 is large
+x >= 10

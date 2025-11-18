@@ -1,0 +1,12 @@
+Section Assignment Demonstration
+================================
+
+Variables in custom sections:
+  custom_data (.mydata): 100
+  custom_string (.myrodata): Custom section data
+  custom_array sum (.mydata): 10
+
+Function in custom section:
+  custom_function result: 42
+
+Linker scripts control section placement

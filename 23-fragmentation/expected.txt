@@ -1,0 +1,11 @@
+Fragmented heap state:
+  Free block: 32 bytes
+  Free block: 48 bytes
+  Free block: 40 bytes
+  Free block: 36 bytes
+  Free block: 44 bytes
+Total free: 200 bytes in 5 blocks
+
+Trying to allocate 100 bytes...
+Failed: External fragmentation detected
+Total free (200) >= request (100), but fragmented!

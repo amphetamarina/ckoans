@@ -1,0 +1,4 @@
+Initialized: 42
+Computed: 84
+Uninitialized: 10
+Message: Hello from .rodata

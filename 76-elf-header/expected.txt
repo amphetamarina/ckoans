@@ -1,0 +1,2 @@
+The answer is: 42
+ELF header is at offset 0 of the file

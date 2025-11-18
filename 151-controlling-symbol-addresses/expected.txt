@@ -1,0 +1,21 @@
+Linker-Defined Symbol Addresses
+================================
+
+Text section:
+  Start: 0x400000
+  End:   0x401000
+  Size:  0x1000 bytes
+
+Data section:
+  Start: 0x600000
+  End:   0x601000
+  Size:  0x1000 bytes
+
+Location Counter (.) in Linker Scripts:
+  - Current address in output section
+  - Can assign: _symbol = .;
+  - Can align: . = ALIGN(4096);
+  - Can advance: . += 0x1000;
+
+Linker scripts provide fine-grained address control
+Essential for embedded systems and bootloaders

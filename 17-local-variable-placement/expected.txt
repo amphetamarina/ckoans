@@ -1,0 +1,6 @@
+Variable addresses (negative offsets from frame base):
+&a   = 0xDYNAMIC
+&b   = 0xDYNAMIC
+&arr = 0xDYNAMIC
+&c   = 0xDYNAMIC
+Sum: 10

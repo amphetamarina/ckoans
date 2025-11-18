@@ -1,0 +1,10 @@
+Free list state:
+  Block size: 32
+  Block size: 64
+  Block size: 128
+  Block size: 16
+  Block size: 256
+
+Allocating 50 bytes (first-fit):
+Found exact block of size 64
+Success! Allocated block of size 64

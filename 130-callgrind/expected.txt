@@ -1,0 +1,5 @@
+Callgrind profiling demonstration:
+
+Fibonacci(30) = 832040
+Sum to 1000 = 500500
+Primes below 5000: 669

@@ -1,0 +1,5 @@
+Use-after-free demonstration:
+
+Processing record: id=42, name=Example
+
+Sum before free: 45

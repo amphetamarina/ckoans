@@ -1,0 +1,6 @@
+=== Heap and Stack Growth ===
+
+Stack growth demonstration:
+Stack is at higher addresses than heap
+
+Check stack size: ulimit -s

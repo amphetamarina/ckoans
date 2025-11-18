@@ -1,0 +1,4 @@
+Via int*: 42
+Via unsigned int*: 42
+Via char* (byte 0): 42
+Correct access: 3.14

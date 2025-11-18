@@ -1,0 +1,3 @@
+Correct (union): 1078523331
+Correct (memcpy): 1078523331
+Safe result: 42

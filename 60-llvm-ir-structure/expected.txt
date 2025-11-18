@@ -1,0 +1,2 @@
+Compute (10, 5): 30
+Process (15): 20

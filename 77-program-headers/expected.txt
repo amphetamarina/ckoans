@@ -1,0 +1,4 @@
+Global data: 42
+Code segment: executable, not writable
+Data segment: writable, not executable
+Program headers define memory layout

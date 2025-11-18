@@ -1,0 +1,4 @@
+Value: 42
+ET_DYN: Position-independent, ASLR-friendly
+ET_EXEC: Fixed position, no ASLR
+PIE is the modern default
